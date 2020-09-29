@@ -1,8 +1,7 @@
 {
-  "name": "tcomb-form-native",
+  "name": "@brandingbrand/tcomb-form-native",
   "version": "0.6.20",
-  "description":
-    "react-native powered UI library for developing forms writing less code",
+  "description": "Fork of tcomb-form-native to support RN core thinning",
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib",
@@ -19,7 +18,12 @@
   },
   "homepage": "https://github.com/gcanti/tcomb-form-native",
   "dependencies": {
+    "@react-native-community/datetimepicker": "^3.0.2",
+    "@react-native-community/picker": "^1.8.0",
     "tcomb-validation": "^3.0.0"
+  },
+  "peerDependencies": {
+    "react-native": "^0.63.0"
   },
   "devDependencies": {
     "@types/eslint-plugin-prettier": "^2.2.0",
@@ -35,6 +39,20 @@
     "react": "^15.6.1",
     "tape": "3.5.0"
   },
-  "tags": ["tcomb", "form", "forms", "react", "react-native", "react-component"],
-  "keywords": ["tcomb", "form", "forms", "react", "react-native", "react-component"]
+  "tags": [
+    "tcomb",
+    "form",
+    "forms",
+    "react",
+    "react-native",
+    "react-component"
+  ],
+  "keywords": [
+    "tcomb",
+    "form",
+    "forms",
+    "react",
+    "react-native",
+    "react-component"
+  ]
 }
